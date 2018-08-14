@@ -5,6 +5,8 @@
  */
 package jobsheet11;
 
+import java.util.Locale;
+
 /**
  *
  * @author user
@@ -59,6 +61,10 @@ public class CobaOperasiString {
        for(int i=0;i<arrT.length;i++);
        System.out.println(arrT[1]);
        System.out.println(arrT[1]);
+       
+       double d = 1545454000;
+       System.out.println(String.format("Uang saya %, .4f",d));
+       System.out.println(String.format(Locale.forLanguageTag("in-ID"),"Uang saya Rp %,.2f",d));
        
     }
     
