@@ -40,7 +40,15 @@ public class CobaOperasiString {
       String s ="Operasi";
         System.out.println("Isi Variabel s :"+s);
         System.out.println("isi X sama dengan s(Case Sensitive) :"+x.equals(s));
+        System.out.println("pada x terdapat huruf 'a' :"+x.contains("a"));
+        System.out.println("isi variabel x besar semua :"+x.toUpperCase());
+        System.out.println("isi variabel x kecil semua :"+x.toLowerCase());
+         String t ="Operasi string";
+        System.out.println("Isi Variabel t :\""+t+"\"");
+        System.out.println("isi variabel t tanpa spasi :\""+t.trim()+"\"");
+        System.out.println("gabungan isi variabel X dan r :"+x.concat(r));
         
+       
     }
     
    
