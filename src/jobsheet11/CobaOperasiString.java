@@ -24,6 +24,15 @@ public class CobaOperasiString {
         
         System.out.println("X adalah kosong :"+x.isEmpty());
         
+        System.out.println("isi X sama dengan y :"+x.equals(y));
+        String z ="Operasi";
+        System.out.println("Isi Variabel z :"+z);
+        System.out.println("isi X sama dengan z(Case Sensitive) :"+x.equals(z));
+        String r ="Operasi";
+        System.out.println("Isi Variabel z :"+r);
+        System.out.println("isi X sama dengan y :"+x.equals(r));
+        System.out.println("isi X sama dengan r(Not Case Sensitive) :"+x.equalsIgnoreCase(r));
+        
     }
     
    
