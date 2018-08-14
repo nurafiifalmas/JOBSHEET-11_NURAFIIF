@@ -6,11 +6,6 @@
 package jobsheet11;
 
 import java.util.Locale;
-
-/**
- *
- * @author user
- */
 public class CobaOperasiString {
     public static void main(String[] args) {
         
