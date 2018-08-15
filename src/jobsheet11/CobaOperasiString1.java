@@ -36,5 +36,14 @@ public class CobaOperasiString1 {
         System.out.println("isi X sama dengan r (Case Sensitive)   :"+x.equals(r));
         System.out.println("isi X sama dengan r(Not Case Sensitive):"+x.equalsIgnoreCase(r));
         
+        System.out.println("Perbandingan isi X dengan y :"+x.compareTo(y));
+        System.out.println("Perbandingan isi X dengan z (Case Sensitive) :"+x.compareTo(z));
+        System.out.println("isi X sama dengan r (Not Sensitive Case)     :"+x.compareTo(r));
+        System.out.println("isi X sama dengan r (Not Sensitive Case)     :"+x.compareToIgnoreCase(r)); 
+          
+        String s ="OperasI";
+        System.out.println("Isi Variabel s  :"+s);
+        System.out.println("Perbandingan isi r dengan s (Case Sensitive) :"+x.compareTo(s));
+        
     }
 }
