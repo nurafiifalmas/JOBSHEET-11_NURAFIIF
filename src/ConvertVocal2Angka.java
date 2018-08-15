@@ -29,7 +29,9 @@ public class ConvertVocal2Angka {
          
     }
     
+    
   
-        
+    String kalimat = tampilInput();
+    
     }
 
