@@ -26,7 +26,7 @@ public class ConvertVocal2Angka {
          System.out.println("Kalimat Asli : "+kalimat);
          
          return kalimat;
-         
+       
     }
     private static String vokal2Angka (String kalimat) {
         char [][] arConvert = {{'a','4'},{'i','1'},{'u','2'},{'e','3'},{'o','0'}};
@@ -43,6 +43,12 @@ public class ConvertVocal2Angka {
      String[] arrCon = kalimat.split(" ");
      for(int i=0;i<arrKal.length;i++)
          System.out.println(arrKal[i]+"=>"+arrCon);
+    }
+    private static void tampilHasil(String convert){
+        System.out.println("Kalimat Alay Angka : "+convert);
+        
+         
+     }
      
      
      
