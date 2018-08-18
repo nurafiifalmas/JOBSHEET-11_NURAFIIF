@@ -30,8 +30,12 @@ public class ConvertVocal2Angka {
      return kalimat;
      }
      
-     }
+   String kalimat = tampilInput();
+   
     }
+
+   
+    
 
 
 
