@@ -28,14 +28,22 @@ public class ConvertVocal2Angka {
      System.out.println("Kalimat asli : "+ kalimat);
      
      return kalimat;
+ 
+
      }
-     
-   String kalimat = tampilInput();
+     private static String Vocal2Angka(String kalimat){
+
+           char [][] arConvert =
+           {{'a','4'},{'i','1'},{'e','3'},{'o','0'}};
+           kalimat = kalimat.toLowerCase();
+           for(int i=0;i<arConvert.length;i++)
+               kalimat = kalimat.replace(arConvert[i][0], arConvert[i][1]);
+           return kalimat;
+           
+       }
+               
+               
+           }
    
-    }
-
-   
-    
-
-
-
+       
+                   
