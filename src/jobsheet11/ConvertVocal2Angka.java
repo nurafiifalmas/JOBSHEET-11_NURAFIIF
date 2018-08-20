@@ -15,15 +15,13 @@ public class ConvertVocal2Angka {
     private static void tampilJudul(String identitas){
         System.out.println("Identitas" +identitas);
         System.out.println("\nConvert Kalimat Alay Angka (Vokal ke Angka)\n");
-    }
-    public static void main(String[] args) {
-    String identitas = "Nurafiif Almas Azhari / XRPL5/ 33";
-    tampilJudul(identitas);
+    
+    
     
     }
      private static String tampilInput(){
          Scanner scanner = new Scanner(System.in);
-     System.out.println("Masukkan kalimat :");
+     System.out.print("Masukkan kalimat :");
      String kalimat = scanner.nextLine();
      System.out.println("Kalimat asli : "+ kalimat);
      
@@ -52,9 +50,18 @@ public class ConvertVocal2Angka {
            }
   private static void tampilHasil(String convert){
       System.out.println("Kalimat Alay Angka :"+convert);
-      
   }
-}
+    public static void main(String[] args) {
+    String identitas = " Nurafiif Almas Azhari / XRPL5/ 33";
+    tampilJudul(identitas);
+    String kalimat = tampilInput();
+    String Convert = Vocal2Angka(kalimat);
+    tampilPerKata(kalimat, Convert);
+    tampilHasil(Convert);
+    }
+  
+  }
+
    
        
                    
